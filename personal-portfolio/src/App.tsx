@@ -1,7 +1,13 @@
-import "./App.css";
+import Nav from "./components/Nav";
+import Banner from "./components/Banner";
 
 function App() {
-  return <h1 className="text-xl">Hello world!</h1>;
+  return (
+    <div className="w-full ">
+      <Nav />
+      <Banner />
+    </div>
+  );
 }
 
 export default App;
