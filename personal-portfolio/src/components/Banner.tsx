@@ -5,7 +5,7 @@ import "./Banner.css";
 const Banner = () => {
   return (
     <div
-      className="h-screen bg-cover bg-center flex"
+      className="h-screen bg-cover bg-center flex pl-6"
       style={{ backgroundImage: `url(${bannerBG})` }}
     >
       <div className="w-1/2 flex items-center justify-center">
