@@ -1,7 +1,7 @@
 import fourStar from "../assets/fourStar.png";
 function Nav() {
   return (
-    <nav className="flex items-center bg-black p-3 flex-wrap">
+    <nav className="flex items-center bg-gray-900 p-3 flex-wrap">
       <a href="#" className="p-2 mr-4 inline-flex items-center">
         <img src={fourStar} alt="" className="w-7 h-7 mr-2" />{" "}
         <span className="text-xl text-white font-bold uppercase tracking-wide">
