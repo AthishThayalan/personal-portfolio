@@ -1,5 +1,5 @@
-import bannerBG from "../assets/banner-bg.png";
-import vegeta from "../assets/vegeta.png";
+import bannerBG from "../../assets/banner-bg.png";
+import vegeta from "../../assets/vegeta.png";
 import Typed from "typed.js";
 import "./Banner.css";
 import { useEffect, useRef } from "react";
@@ -10,7 +10,7 @@ const Banner = () => {
   useEffect(() => {
     if (el.current) {
       const typed = new Typed(el.current, {
-        strings: ["Athish.", "coding.", "sleeping."],
+        strings: ["Athish.", "coding.", "sleeping.", "Athish."],
         typeSpeed: 200,
       });
 
@@ -26,10 +26,10 @@ const Banner = () => {
     >
       <div className="w-1/2 flex items-center justify-center">
         <div className="text-left">
-          <h1 className="text-6xl text-white font-bold mb-10">
+          <h1 className="text-4xl md:text-6xl text-white font-bold mb-5 md:mb-10">
             Hey! I'm <span ref={el}></span>
           </h1>
-          <h2 className="text-2xl text-sky-200">
+          <h2 className="text-lg md:text-2xl text-sky-200">
             I'm Athish Thayalan, a First Class, University of Nottingham
             graduate with a degree in Mathematics and Economics. With the
             Economics half having a focus on mathematical modelling, statistics,
@@ -41,7 +41,7 @@ const Banner = () => {
       </div>
 
       <div className="w-1/2 flex items-center justify-center">
-        <img src={vegeta} alt="Profile" className={`max-h-full  bounce  }`} />
+        <img src={vegeta} alt="Profile" className={`max-h-full bounce`} />
       </div>
     </div>
   );
