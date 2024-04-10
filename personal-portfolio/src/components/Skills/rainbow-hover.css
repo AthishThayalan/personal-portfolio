@@ -1,0 +1,33 @@
+.rainbow-hover:hover {
+  animation: rainbow 2s infinite;
+}
+
+@keyframes rainbow {
+  0% {
+    color: red;
+  }
+  16.7% {
+    color: orange;
+  }
+  33.3% {
+    color: yellow;
+  }
+  50% {
+    color: green;
+  }
+  66.7% {
+    color: blue;
+  }
+  83.3% {
+    color: indigo;
+  }
+  100% {
+    color: violet;
+  }
+}
+
+.slow-magnify:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
