@@ -1,4 +1,4 @@
-import vegeta from "../../assets/vegeta.png";
+import vegeta from "../../assets/vegeta-bubble-removebg.png";
 import Typed from "typed.js";
 import "./Banner.css";
 import { useEffect, useRef } from "react";
