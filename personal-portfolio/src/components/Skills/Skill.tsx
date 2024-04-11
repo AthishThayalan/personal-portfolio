@@ -17,7 +17,7 @@ const skillsList = [
 
 const Skills = () => {
   return (
-    <div className="flex justify-center mt-10">
+    <div className="flex justify-center mt-10" id="skills">
       <div className="w-1/2 flex flex-col items-center justify-center">
         <h2 className="text-center text-3xl font-bold text-gray-200  mb-10">
           Technical Skills
