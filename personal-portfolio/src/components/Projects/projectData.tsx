@@ -4,7 +4,7 @@ import calculator from "../../assets/projects/calculator.png";
 import yelpcamp from "../../assets/projects/yelpCamp.png";
 import sortingAlgo from "../../assets/projects/sortingAlgo.png";
 
-type Projects = {
+export type Projects = {
   id: number;
   name: string;
   image: string;
@@ -12,7 +12,7 @@ type Projects = {
   url: string;
 };
 
-const projectsData: Projects[] = [
+export const projectsData: Projects[] = [
   {
     id: 1,
     name: "YelpCamp",
