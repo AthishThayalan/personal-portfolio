@@ -1,5 +1,6 @@
 import { Link } from "react-scroll";
 import fourStar from "../../assets/fourStar.png";
+import "./Nav.css";
 
 function Nav() {
   return (
@@ -21,7 +22,7 @@ function Nav() {
         className="text-white inline-flex p-3 hover:bg-gray-900 rounded lg:hidden ml-auto hover:text-white outline-none nav-toggler"
         data-target="#navigation"
       >
-        <i className="material-icons">menu</i>
+        <i className="material-icons">Menu</i>
       </button>
       <div
         className="hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto"
@@ -66,7 +67,7 @@ function Nav() {
             offset={-70}
             className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-sky-300 hover:pointer"
           >
-            <span>Contact Me</span>
+            <span>Contact</span>
           </Link>
         </div>
       </div>
