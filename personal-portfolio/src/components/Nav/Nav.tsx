@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-scroll";
 import fourStar from "../../assets/fourStar.png";
 
@@ -10,7 +9,7 @@ function Nav() {
         spy={true}
         smooth={true}
         duration={500}
-        offset={-70} // Adjust the offset to scroll slightly above the target ID
+        offset={-70}
         className="p-2 mr-4 inline-flex items-center hover:pointer"
       >
         <img src={fourStar} alt="" className="w-7 h-7 mr-2" />{" "}
