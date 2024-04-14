@@ -1,8 +1,15 @@
+import { useState } from "react";
 import { Link } from "react-scroll";
 import fourStar from "../../assets/fourStar.png";
 import "./Nav.css";
 
 function Nav() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <nav className="flex sticky top-0 z-50 items-center bg-gray-900 p-3 flex-wrap">
       <Link
@@ -20,12 +27,14 @@ function Nav() {
       </Link>
       <button
         className="text-white inline-flex p-3 hover:bg-gray-900 rounded lg:hidden ml-auto hover:text-white outline-none nav-toggler"
-        data-target="#navigation"
+        onClick={toggleMenu}
       >
         <i className="material-icons">Menu</i>
       </button>
       <div
-        className="hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto"
+        className={`${
+          isMenuOpen ? "block" : "hidden"
+        } top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto lg:block`}
         id="navigation"
       >
         <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">

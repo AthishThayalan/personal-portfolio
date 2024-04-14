@@ -19,8 +19,8 @@ const Banner = () => {
     }
   }, []);
   return (
-    <div className="h-screen bg-inherit flex pl-6" id="home">
-      <div className="w-1/2 flex items-center justify-center">
+    <div className="h-screen  bg-inherit flex pl-6" id="home">
+      <div className="w-full md:w-1/2 flex items-center justify-center">
         <div className="text-left">
           <h1 className="text-4xl md:text-6xl text-white font-bold mb-5 md:mb-10">
             Hey! I'm <span ref={el}></span>
@@ -36,7 +36,7 @@ const Banner = () => {
         </div>
       </div>
 
-      <div className="w-1/2  flex items-center justify-center">
+      <div className="w-1/2  flex items-center justify-center hidden md:block ml-60">
         <img src={vegeta} alt="Profile" className={`max-h-full bounce`} />
       </div>
     </div>
