@@ -2,7 +2,6 @@ import vegeta from "../../assets/vegeta-bubble-removebg.png";
 import Typed from "typed.js";
 import "./Banner.css";
 import { useEffect, useRef } from "react";
-import me from "../../assets/me-cropped-removebg-preview.png";
 
 const Banner = () => {
   const el = useRef(null);
@@ -20,7 +19,7 @@ const Banner = () => {
     }
   }, []);
   return (
-    <div className="h-screen bg-inherit flex pl-6">
+    <div className="h-screen bg-inherit flex pl-6" id="home">
       <div className="w-1/2 flex items-center justify-center">
         <div className="text-left">
           <h1 className="text-4xl md:text-6xl text-white font-bold mb-5 md:mb-10">
