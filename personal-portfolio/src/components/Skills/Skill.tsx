@@ -13,6 +13,9 @@ const skillsList = [
   "Tailwind CSS",
   "SQL",
   "Python",
+  "TDD",
+  "Jest",
+  "Cypress",
 ];
 
 const Skills = () => {

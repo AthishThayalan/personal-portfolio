@@ -2,14 +2,13 @@ import me from "../../assets/me-cropped-removebg-preview.png";
 import github from "../../assets/icons/github.png";
 import linkedin from "../../assets/icons/linkedin.png";
 import email from "../../assets/icons/email.png";
-import cv from "../../assets/icons/cv.png";
 import "../Banner/Banner.css";
 const Contact = () => {
   return (
     <div className="max-w-screen-xl mx-auto h-screen flex items-center justify-center pb-12">
       {" "}
       <div
-        className="bg-zinc-900 rounded-lg shadow-lg md:flex md:flex-row items-center justify-center text-white h-80 p-4"
+        className="bg-zinc-900 rounded-lg shadow-lg md:flex md:flex-row items-center justify-center text-white h-auto p-4"
         id="contact"
       >
         <div className="md:w-1/2 p-4">
