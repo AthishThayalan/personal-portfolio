@@ -49,7 +49,7 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <div className="md:w-1/3 ml-40 mb-20">
+        <div className="md:w-1/3 ml-40 mb-20 hidden md:block">
           <img
             src={me}
             alt="My Image"

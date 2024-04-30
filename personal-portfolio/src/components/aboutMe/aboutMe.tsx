@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <div className="flex justify-center items-center h-screen">
       <div className="bg-zinc-900 flex items-center w-full max-w-7xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden h-4/5">
-        <div className="flex-none w-1/3 ml-10">
+        <div className="flex-none w-1/3 ml-10 hidden md:block">
           <img
             src={myImage}
             alt="My Image"
