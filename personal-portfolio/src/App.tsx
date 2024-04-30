@@ -4,6 +4,7 @@ import Skills from "./components/Skills/Skill";
 import bannerBG from "./assets/banner-bg.png";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
+import AboutMe from "./components/aboutMe/aboutMe";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         style={{ backgroundImage: `url(${bannerBG})` }}
       >
         <Banner />
+        <AboutMe />
         <Skills />
       </div>
       <div

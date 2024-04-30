@@ -8,7 +8,7 @@ const Contact = () => {
     <div className="max-w-screen-xl mx-auto h-screen flex items-center justify-center pb-12">
       {" "}
       <div
-        className="bg-zinc-900 rounded-lg shadow-lg md:flex md:flex-row items-center justify-center text-white h-auto p-4"
+        className="bg-zinc-900 rounded-lg shadow-lg md:flex md:flex-row items-center justify-center text-white h-5/6 p-4"
         id="contact"
       >
         <div className="md:w-1/2 p-4">
