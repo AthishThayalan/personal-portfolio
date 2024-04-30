@@ -23,9 +23,9 @@ const AboutMe = () => {
             <br />
             <br />
             And of course, no day is complete without a steaming hot cup of
-            coffee. Whether it's to kickstart my morning or to fuel an intense
-            coding session, coffee is my constant companion, providing both
-            warmth and inspiration.
+            <strong>coffee</strong>. Coffee is my companion when going to the
+            gym, coding or even reading a book. I'm particular interested in
+            fantasy and self-improvement books.
           </p>
         </div>
       </div>
