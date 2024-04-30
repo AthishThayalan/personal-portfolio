@@ -49,6 +49,16 @@ function Nav() {
             <span>Home</span>
           </Link>
           <Link
+            to="about-me"
+            spy={true}
+            smooth={true}
+            duration={500}
+            offset={-40}
+            className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-sky-300 hover:pointer"
+          >
+            <span>About Me</span>
+          </Link>
+          <Link
             to="skills"
             spy={true}
             smooth={true}
