@@ -28,7 +28,7 @@ const Skills = () => {
         <div className="flex justify-center gap-4 flex-wrap">
           {skillsList.map((skill, index) => (
             <div key={index} className="w-1/8 mb-4">
-              <span className="flex items-center justify-center inline-block whitespace-nowrap rounded-[0.27rem] bg-primary-100 px-[0.65em] pb-[0.25em] pt-[0.35em] text-center align-baseline text-[1.5em] font-bold leading-none text-black dark:bg-slate-300 dark:text-primary-500 h-10 transition duration-300 ease-in-out   rainbow-hover slow-magnify">
+              <span className="flex items-center justify-center inline-block whitespace-nowrap rounded-[0.27rem] bg-primary-100 px-[0.65em] pb-[0.25em] pt-[0.35em] text-center align-baseline text-[1.5em] font-bold leading-none text-white bg-zinc-800 dark:text-primary-500 h-10 transition duration-300 ease-in-out rainbow-hover slow-magnify">
                 {" "}
                 {skill}
               </span>
